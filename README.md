@@ -3,10 +3,10 @@
 Scripts to aid in bootstrapping instances.
 
 ## Usage
-**Targets Ubuntu**
-The brave can pipe the raw shell scripts from github to bash:
-`\curl -sSL https://raw.githubusercontent.com/tomharvey/bootstraps/master/$SCRIPT_NAME.sh | bash`
-so you can add that line to your cloud-init user data.
+*Targets Ubuntu*
+
+The brave can pipe the raw shell scripts from github to bash by adding the following to their cloud-init user data:
+```\curl -sSL https://raw.githubusercontent.com/tomharvey/bootstraps/master/$SCRIPT_NAME.sh | bash```
 
 ## Descriptions
 
