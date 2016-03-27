@@ -6,7 +6,8 @@ Scripts to aid in bootstrapping instances.
 *Targets Ubuntu*
 
 The brave can pipe the raw shell scripts from github to bash by adding the following to their cloud-init user data:
-```\curl -sSL https://raw.githubusercontent.com/tomharvey/bootstraps/master/$SCRIPT_NAME.sh | bash```
+
+`\curl -sSL https://raw.githubusercontent.com/tomharvey/bootstraps/master/$SCRIPT_NAME.sh | bash`
 
 ## Descriptions
 
