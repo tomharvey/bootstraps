@@ -8,8 +8,8 @@ sudo apt-get install -y python-pip ruby2.0
 sudo pip install awscli
 
 cd /usr/local/src/
-aws s3 cp s3://aws-codedeploy-eu-west-1/latest/install . --region eu-west-1
-chmod +x ./install
+sudo aws s3 cp s3://aws-codedeploy-eu-west-1/latest/install . --region eu-west-1
+sudo chmod +x ./install
 sudo ./install auto
 sudo service codedeploy-agent start
 
