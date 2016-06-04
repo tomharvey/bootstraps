@@ -20,5 +20,10 @@ Installs latest CloudFormation tools for ubuntu. AWS maintain .rpm packages, but
 ### codedeploy-agent-install
 Installs the latest CodeDeploy agent.
 
+### configure-chef-client
+Installs chef-client, creates client.rb configuration file and organistaion-validation.pem key then runs chef-client and sets up a system cronjob to run chef-client every 15min.
+
+*NB* This is very opinionated. To use it, follow the instructions in the wiki page.
+
 ### s3-tools-install
 Installs the Amazon S3 Tools from the [s3tools repo installation guide](http://s3tools.org/repositories#note-deb)
