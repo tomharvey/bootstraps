@@ -3,9 +3,11 @@
 ####  Setup:
     # You must create an S3 Bucket named ORG_NAME-chef-setup
     # where ORG-NAME is the name of your chef organisation
-    # Into this bucket, add your valifdation files and a client.rb file
+    # Into this bucket, add your validation files and a client.rb file
 
 ####  Usage: pass the organisation name as the first and only argument to the script
+
+#### See the wiki page at https://github.com/tomharvey/bootstraps/wiki/configure-chef-client for more
 
 echo "Configuring chef for organistaion $1"
 
