@@ -21,7 +21,7 @@ Installs latest CloudFormation tools for ubuntu. AWS maintain .rpm packages, but
 Installs the latest CodeDeploy agent.
 
 ### configure-chef-client
-Installs chef-client, creates client.rb configuration file and organistaion-validation.pem key then runs chef-client and sets up a system cronjob to run chef-client every 15min.
+Installs chef-client, creates client.rb configuration file and organistaion-validation.pem key then runs chef-client and sets up a system cronjob to run chef-client every 15min. Pass the organistaion name to this script as the first and only argument.
 
 *NB* This is very opinionated. To use it, follow [these instructions in the wiki](https://github.com/tomharvey/bootstraps/wiki/configure-chef-client).
 
