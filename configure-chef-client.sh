@@ -10,7 +10,7 @@
 echo "Configuring chef for organistaion $1"
 
 # Install chef-client from deb package
-s3cmd get s3://$1-chef-setup/chef_12.10.24-1_amd64.deb /tmp/chef_12.10.24-1_amd64.deb
+curl -L -o /tmp/chef_12.10.24-1_amd64.deb https://packages.chef.io/stable/ubuntu/10.04/chef_12.10.24-1_amd64.deb
 dpkg -i /tmp/chef_12.10.24-1_amd64.deb
 
 # Configure chef for the organisation passed as arg 1 in the script
