@@ -17,3 +17,5 @@ python setup.py install
 cd /etc/init.d/
 ln -s /usr/local/src/aws-cfn-bootstrap-1.4/init/ubuntu/cfn-hup .
 chmod u+x cfn-hup
+
+/usr/sbin/update-rc.d cfn-hup enable
