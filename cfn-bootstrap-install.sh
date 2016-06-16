@@ -18,4 +18,6 @@ cd /etc/init.d/
 ln -s /usr/local/src/aws-cfn-bootstrap-1.4/init/ubuntu/cfn-hup .
 chmod u+x cfn-hup
 
+/etc/init.d/cfn-hup start
+/usr/sbin/update-rc.d cfn-hup start
 /usr/sbin/update-rc.d cfn-hup enable
